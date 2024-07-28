@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="10.98" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="login feature" name="Validate that user can login successfully - Example #1.1" time="10.804">
+<system-out><![CDATA[
+Given user navigate to login page...........................................passed
+And user enters his "standard_user".........................................passed
+And user enters his right "secret_sauce"....................................passed
+And user click login button.................................................passed
+And validate that home page displayed.......................................passed
+And user select sortion "price high to low".................................passed
+And user click add to cart..................................................passed
+And user click cart icon....................................................passed
+Then validate that item added successfully..................................passed
+And user click checkout.....................................................passed
+And user enters his data....................................................passed
+And user click continue.....................................................passed
+Then validate total price...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
